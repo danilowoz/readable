@@ -1,0 +1,173 @@
+html, body {
+  margin: 0;
+  padding: 0; }
+
+.readble {
+  font-size: 18px;
+  background-color: white;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #333; }
+  @media (max-width: 768px) {
+    .readble {
+      font-size: 16px;
+      letter-spacing: -.01em; } }
+  .readble p {
+    margin-bottom: 1.3em;
+    font-family: 'Open Sans', sans-serif; }
+  .readble .description {
+    font-style: italic; }
+  .readble h1, .readble h2, .readble h3, .readble h4 {
+    margin: 1.414em 0 0.5em;
+    font-weight: inherit;
+    line-height: 1.2; }
+  .readble h1 {
+    margin-top: 0;
+    font-size: 3.157em; }
+  .readble h2 {
+    font-size: 2.369em; }
+  .readble h3 {
+    font-size: 1.777em; }
+  .readble h4 {
+    font-size: 1.333em; }
+  @media (max-width: 768px) {
+    .readble h1 {
+      margin-top: 0;
+      font-size: 2.074em;
+      letter-spacing: -.03em; }
+    .readble h2 {
+      font-size: 1.728em;
+      letter-spacing: -.03em; }
+    .readble h3 {
+      font-size: 1.44em;
+      letter-spacing: -.03em; }
+    .readble h4 {
+      font-size: 1.2em;
+      letter-spacing: -.03em; } }
+  .readble small, .readble .font_small {
+    font-size: 0.75em; }
+  .readble li p {
+    margin-bottom: 0; }
+  .readble .container {
+    padding: 0 1rem;
+    max-width: 45rem;
+    margin-left: auto;
+    margin-right: auto; }
+
+.g1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.77;
+  color: #484848; }
+  .g1 .container {
+    max-width: calc(12 / 24 * 85rem);
+    margin-left: auto;
+    margin-right: auto; }
+    @media (max-width: 768px) {
+      .g1 .container {
+        max-width: 100%;
+        padding-left: 12px;
+        padding-right: 12px; } }
+  .g1 h1, .g1 h2, .g1 h3, .g1 h4, .g1 h5 {
+    margin-top: 16px;
+    margin-bottom: 5px;
+    color: #333333; }
+  .g1 h1 {
+    font-size: 52px;
+    line-height: 57.2px; }
+    @media (max-width: 768px) {
+      .g1 h1 {
+        margin-bottom: 14px;
+        margin-top: 16px;
+        font-weight: bold;
+        font-size: 1.625rem;
+        line-height: 1.1;
+        letter-spacing: -.055em;
+        color: #333; } }
+  .g1 h2 {
+    font-size: 1.25rem; }
+  .g1 .description {
+    color: #666666;
+    font-size: 20px;
+    line-height: 29px; }
+    @media (max-width: 768px) {
+      .g1 .description {
+        font-size: .95rem;
+        line-height: 1.45;
+        color: #1f1f1f;
+        letter-spacing: -.65px; } }
+  .g1 p {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: #484848;
+    letter-spacing: -.75px; }
+    @media (max-width: 768px) {
+      .g1 p {
+        font-size: 18px;
+        line-height: 31.86px;
+        letter-spacing: -.75px;
+        margin-bottom: 21px; } }
+
+.medium {
+  font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+  letter-spacing: .01rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  color: rgba(0, 0, 0, 0.8); }
+  .medium .container {
+    max-width: 740px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto; }
+  .medium h1, .medium h2, .medium h3, .medium h4, .medium h5 {
+    font-weight: 700;
+    font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+    margin: 0; }
+    @media (max-width: 768px) {
+      .medium h1, .medium h2, .medium h3, .medium h4, .medium h5 {
+        font-size: 22px;
+        margin-left: -1.38px;
+        line-height: 1.22;
+        letter-spacing: -.018em; } }
+  .medium h1 {
+    --x-height-multiplier: 0.363;
+    --baseline-multiplier: 0.157;
+    font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+    letter-spacing: -.02em;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: -2.5px;
+    line-height: 1.04;
+    letter-spacing: -.028em; }
+    @media (max-width: 768px) {
+      .medium h1 {
+        font-size: 32px;
+        margin-left: -2px;
+        line-height: 1.04;
+        letter-spacing: -.028em; } }
+  .medium p {
+    margin-top: 29px; }
+    @media (max-width: 768px) {
+      .medium p {
+        margin-top: 21px;
+        font-size: 18px;
+        line-height: 1.58;
+        letter-spacing: -.004em; } }
+  .medium h1 + p,
+  .medium h2 + p,
+  .medium h3 + p {
+    margin-top: 10px; }
+    @media (max-width: 768px) {
+      .medium h1 + p,
+      .medium h2 + p,
+      .medium h3 + p {
+        margin-top: 6px; } }
+
+/*# sourceMappingURL=main.css.map */
